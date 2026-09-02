@@ -120,7 +120,7 @@ from .serializer import UserSerializer
 #         )
 
 
-import Employeeserialzer from serializer
+import Employeeserialzer from backend.practice.Myapp.serializer
 
 class EmployeeAPI(APIView):
     def get (self,request,emp_id):
