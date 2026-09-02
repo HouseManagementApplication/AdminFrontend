@@ -33,6 +33,7 @@ return(
      <Navbar/>
      <div className="dashboard-content">
             <div className="top-bar">
+                <p>{userdata?.name}</p>
                 <p className="welcome-greet">Welcome Home {userdata?.name}!</p>
                 <input
                     placeholder="Search"
